@@ -1,0 +1,17 @@
+[project]
+name = "chip8"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "dream2333", email = "vincentqng@gmail.com"},
+]
+dependencies = [
+    "pygame>=2.5.2",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
