@@ -6,6 +6,7 @@ CHIP-8 是 70 年代中期由 Joseph Weisbecker 发明的一个虚拟机，发�
 我主要参考的两个资料：
 
 http://devernay.free.fr/hacks/chip8/C8TECH10.HTM
+
 https://github.com/mattmikolay/chip-8/wiki/CHIP%E2%80%908-Instruction-Set
 
 第一个资料比较全面系统地阐述了 CHIP-8 的各个方面。
@@ -18,6 +19,6 @@ https://github.com/mattmikolay/chip-8/wiki/CHIP%E2%80%908-Instruction-Set
 
 ![Image Description](preview2.png)
 
-`
+```bash
 python3 emulator.py .\Tetris.ch8
-`
+```
